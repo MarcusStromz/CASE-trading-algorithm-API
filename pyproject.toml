@@ -22,3 +22,11 @@ dependencies = [
   "numpy>=1.26",
   "backtrader==1.9.78.123"
 ]  
+
+[tool.setuptools]
+include-package-data = true
+
+# Descobrir somente pacotes que começam com "app"
+[tool.setuptools.packages.find]
+include = ["app*"]
+exclude = ["alembic*", "notebooks*", "tests*", "scripts*"]

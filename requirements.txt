@@ -8,3 +8,6 @@ python-dotenv
 pandas>=2.2
 yfinance>=0.2.52
 backtrader==1.9.78.123
+pytest
+pytest-asyncio
+httpx
