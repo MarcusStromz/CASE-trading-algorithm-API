@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trading-api"
+version = "0.3.0"
+description = "API de backtests"
+authors = [{ name = "Marcus" }]
+requires-python = ">=3.10"
+
+dependencies = [
+  "fastapi>=0.111",
+  "uvicorn[standard]",
+  "pydantic>=2",
+  "sqlalchemy>=2",
+  "alembic>=1.13",
+  "psycopg2-binary",
+  "python-dotenv",
+  "pandas>=2.2",
+  "yfinance>=0.2.52",
+  "numpy>=1.26",
+  "backtrader==1.9.78.123"
+]  
