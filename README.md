@@ -21,10 +21,11 @@ API em FastAPI que:
 ```bash
 git clone https://github.com/MarcusStromz/CASE-trading-algorithm-API.git
 cd CASE-trading-algorithm-API
-```
-docker compose up -d --build
-# serviços: trading_app (API em :8000) e trading_db (Postgres :5432)
 
+docker compose up -d --build
+
+serviços: trading_app (API em :8000) e trading_db (Postgres :5432)
+```
 A API ficará disponível em:
 👉 http://localhost:8000
 
@@ -37,6 +38,6 @@ A API ficará disponível em:
 
 ## Notebooks
 
-— data_exploration.ipynb (Prices & Indicators): visualização de candles com SMA(20/50) e ATR(14).
-— backtest_analysis.ipynb: análise de métricas, trades e equity.
-— ML_model.ipynb (Opcional): protótipo de modelo de Machine Learning para prever a direção do próximo candle.
+- data_exploration.ipynb (Prices & Indicators): visualização de candles com SMA(20/50) e ATR(14).
+- backtest_analysis.ipynb: análise de métricas, trades e equity.
+- ML_model.ipynb (Opcional): protótipo de modelo de Machine Learning para prever a direção do próximo candle.
