@@ -27,7 +27,7 @@ docker compose up -d --build
 serviços: trading_app (API em :8000) e trading_db (Postgres :5432)
 ```
 A API ficará disponível em:
-👉 http://localhost:8000
+ http://localhost:8000
 
 ## Endpoints principais
 
@@ -41,3 +41,9 @@ A API ficará disponível em:
 - data_exploration.ipynb (Prices & Indicators): visualização de candles com SMA(20/50) e ATR(14).
 - backtest_analysis.ipynb: análise de métricas, trades e equity.
 - ML_model.ipynb (Opcional): protótipo de modelo de Machine Learning para prever a direção do próximo candle.
+
+## Resultados do modelo (protótipo ML)
+
+- Algoritmo: Random Forest Classifier
+- Accuracy ≈ 0.58
+- ROC-AUC ≈ 0.63
