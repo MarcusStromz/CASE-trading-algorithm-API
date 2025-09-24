@@ -29,7 +29,7 @@ serviços: trading_app (API em :8000) e trading_db (Postgres :5432)
 A API ficará disponível em:
  http://localhost:8000
  
-## Testes/Scripts
+## Tests/Scripts
 ```bash
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
