@@ -28,6 +28,16 @@ serviços: trading_app (API em :8000) e trading_db (Postgres :5432)
 ```
 A API ficará disponível em:
  http://localhost:8000
+ 
+## Testes (pytest)
+```bash
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+pytest -q
+pytest --cov=app --cov-report=term-missing -q
+```
+Script de verificação rápida (`scripts/smoke.ps1`), executa todo o fluxo da aplicação:
+powershell -ExecutionPolicy Bypass -File .\scripts\smoke.ps1
 
 ## Endpoints principais
 
