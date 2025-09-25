@@ -50,9 +50,9 @@ powershell -ExecutionPolicy Bypass -File .\scripts\smoke.ps1
 
 ## Notebooks
 
-- data_exploration.ipynb (Prices & Indicators): visualização de candles com SMA(20/50) e ATR(14).
-- backtest_analysis.ipynb: análise de métricas, trades e equity.
-- ML_model.ipynb (Opcional): protótipo de modelo de Machine Learning para prever a direção do próximo candle.
+- **data_exploration.ipynb** (Prices & Indicators): visualização de candles com SMA(20/50) e ATR(14).
+- **backtest_analysis.ipynb**: análise de métricas, trades e equity.
+- **ML_model.ipynb**: protótipo de modelo de Machine Learning para prever a direção do próximo candle.
 
 ## Resultados do modelo (protótipo ML)
 
